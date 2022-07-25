@@ -15,10 +15,10 @@ public class CubeState
         eo = new int[ep.Length];
     }
 
-    public int[] GetCornerPermutationState => cp;
-    public int[] GetEdgPermutationState => ep;
-    public int[] GetCornerOrientations => co;
-    public int[] GetEdgeOrientations => eo;
+    public int[] GetCornerPermutation => cp;
+    public int[] GetEdgePermutation => ep;
+    public int[] GetCornerOrientation => co;
+    public int[] GetEdgeOrientation => eo;
 
     public bool CornerIsSolved()
     {
